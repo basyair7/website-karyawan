@@ -1,10 +1,10 @@
 <?php
     include 'koneksi.php';
 
-    if(isset($_GET['nim'])){
-        $nim_data = $_GET['nim'];
-        $delete = mysqli_query($conn, "DELETE FROM tb_pendaftaran WHERE nim = '".$nim_data."' ");
+    if(isset($_GET['nip'])){
+        $nip_data = $_GET['nim'];
+        $delete = mysqli_query($conn, "DELETE FROM tb_pendataan WHERE nip = '".$nip_data."' ");
 
-        echo '<script>window.location="data-mhs.php"</script>';
+        echo '<script>window.location="data-karyawan.php"</script>';
     }
 ?>
