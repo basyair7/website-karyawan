@@ -97,7 +97,7 @@ frhome = Frame(home, relief=RIDGE, borderwidth=5)
 frhome.grid(row=0, column=0, ipadx=1, ipady=5, padx=5, pady=10)
 
 
-lbl_adm = Label(frhome,text="Form Admin Pendaftaran Mahasiswa Baru")
+lbl_adm = Label(frhome,text="Form Admin Pendataan Karyawan")
 lbl_adm.grid(row=0, column=1, columnspan=3, padx=10, pady=(10,0))
 lbl_name = Label(frhome, text="Nama\t\t:")
 lbl_name.grid(row=1, column=1, columnspan=3, padx=10, pady=(10,0))
