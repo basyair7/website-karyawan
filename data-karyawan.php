@@ -23,6 +23,7 @@
             <ul>
                 <li><a href="beranda.php">Beranda</a></li>
                 <li><a href="data-karyawan.php">Data Karyawan</a></li>
+                <li<a href="#input-data.php">Input Data Baru</a></li>
                 <li><a href="keluar.php">Keluar</a></li>
                 
             </ul>
@@ -60,8 +61,10 @@
                             <td><?php echo $row['alamat'] ?></td>
                             <td>
                                 <a href="detail-karyawan.php?nip=<?php echo $row['nip'] ?>">Detail</a> ||
+                                <a href="edit-data.php?nip=<?php echo $row['nip'] ?>"> Edit </a> || 
                                 <a href="hapus-data.php?nip=<?php echo $row['nip']
                                 ?>" onclick="return confirm('Yakin data akan dihapus?')">Hapus</a>
+                                
                             </td>
                         </tr>
                         <?php } ?>
