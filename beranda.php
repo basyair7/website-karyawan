@@ -23,6 +23,7 @@
             <ul>
                 <li><a href="beranda.php">Beranda</a></li>
                 <li><a href="data-karyawan.php">Data Karyawan</a></li>
+                <li<a href="#input-data.php">Input Data Baru</a></li>
                 <li><a href="keluar.php">Keluar</a></li>
                 
             </ul>
