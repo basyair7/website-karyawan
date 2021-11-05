@@ -53,7 +53,7 @@ def database():
         """
 
         # execute
-        c1.execute(tb_pendaftaran)
+        c1.execute(tb_alat)
         c1.execute(tb_admin)
 
         bytepass = bytes(password, 'utf-8')
